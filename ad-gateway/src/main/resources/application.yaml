@@ -8,7 +8,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8800/eureka/
 zuul:
-  add-host-header:
   prefix: /ad
   routes:
     sponsor:
