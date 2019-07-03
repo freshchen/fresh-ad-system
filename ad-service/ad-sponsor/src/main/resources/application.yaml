@@ -21,7 +21,7 @@ spring:
 server:
   port: 8802
   servlet:
-    context-path: /ad-sponsor
+    context-path: /sponsor
 eureka:
   client:
     service-url:
