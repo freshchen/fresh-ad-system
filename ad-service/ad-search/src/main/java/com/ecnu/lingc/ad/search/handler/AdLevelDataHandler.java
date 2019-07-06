@@ -2,6 +2,7 @@ package com.ecnu.lingc.ad.search.handler;
 
 import com.alibaba.fastjson.JSON;
 import com.ecnu.lingc.ad.common.dump.table.*;
+import com.ecnu.lingc.ad.search.index.DataTable;
 import com.ecnu.lingc.ad.search.index.IndexAware;
 import com.ecnu.lingc.ad.search.index.adplan.AdPlanIndex;
 import com.ecnu.lingc.ad.search.index.adplan.AdPlanObject;

@@ -1,10 +1,10 @@
 package com.ecnu.lingc.ad.search.mysql;
 
 import com.alibaba.fastjson.JSON;
-import com.imooc.ad.mysql.constant.OpType;
-import com.imooc.ad.mysql.dto.ParseTemplate;
-import com.imooc.ad.mysql.dto.TableTemplate;
-import com.imooc.ad.mysql.dto.Template;
+import com.ecnu.lingc.ad.search.mysql.constant.OpType;
+import com.ecnu.lingc.ad.search.mysql.dto.ParseTemplate;
+import com.ecnu.lingc.ad.search.mysql.dto.TableTemplate;
+import com.ecnu.lingc.ad.search.mysql.dto.Template;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

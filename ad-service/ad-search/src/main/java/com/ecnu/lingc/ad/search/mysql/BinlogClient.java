@@ -1,7 +1,7 @@
 package com.ecnu.lingc.ad.search.mysql;
 
+import com.ecnu.lingc.ad.search.mysql.listener.AggregationListener;
 import com.github.shyiko.mysql.binlog.BinaryLogClient;
-import com.imooc.ad.mysql.listener.AggregationListener;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

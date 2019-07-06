@@ -1,6 +1,7 @@
 package com.ecnu.lingc.ad.search.mysql.dto;
 
-import com.imooc.ad.mysql.constant.OpType;
+
+import com.ecnu.lingc.ad.search.mysql.constant.OpType;
 import lombok.Data;
 
 import java.util.ArrayList;

@@ -1,27 +1,17 @@
 package com.ecnu.lingc.ad.search.mysql.listener;
 
+import com.ecnu.lingc.ad.search.mysql.TemplateHolder;
+import com.ecnu.lingc.ad.search.mysql.dto.BinlogRowData;
+import com.ecnu.lingc.ad.search.mysql.dto.TableTemplate;
 import com.github.shyiko.mysql.binlog.BinaryLogClient;
-import com.github.shyiko.mysql.binlog.event.DeleteRowsEventData;
-import com.github.shyiko.mysql.binlog.event.Event;
-import com.github.shyiko.mysql.binlog.event.EventData;
-import com.github.shyiko.mysql.binlog.event.EventType;
-import com.github.shyiko.mysql.binlog.event.TableMapEventData;
-import com.github.shyiko.mysql.binlog.event.UpdateRowsEventData;
-import com.github.shyiko.mysql.binlog.event.WriteRowsEventData;
-import com.imooc.ad.mysql.TemplateHolder;
-import com.imooc.ad.mysql.dto.BinlogRowData;
-import com.imooc.ad.mysql.dto.TableTemplate;
+import com.github.shyiko.mysql.binlog.event.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**

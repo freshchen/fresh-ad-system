@@ -1,6 +1,7 @@
 package com.ecnu.lingc.ad.search.mysql.listener;
 
-import com.imooc.ad.mysql.dto.BinlogRowData;
+
+import com.ecnu.lingc.ad.search.mysql.dto.BinlogRowData;
 
 /**
  * @program: fresh-ad-system
