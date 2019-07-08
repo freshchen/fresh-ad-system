@@ -5,6 +5,7 @@ import com.ecnu.lingc.ad.search.mysql.constant.OpType;
 import com.ecnu.lingc.ad.search.mysql.dto.BinlogRowData;
 import com.ecnu.lingc.ad.search.mysql.dto.MySqlRowData;
 import com.ecnu.lingc.ad.search.mysql.dto.TableTemplate;
+import com.ecnu.lingc.ad.search.sender.ISender;
 import com.github.shyiko.mysql.binlog.event.EventType;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class Constant {
 
-    private static final String DB_NAME = "imooc_ad_data";
+    private static final String DB_NAME = "ad";
 
     public static class AD_PLAN_TABLE_INFO {
 
