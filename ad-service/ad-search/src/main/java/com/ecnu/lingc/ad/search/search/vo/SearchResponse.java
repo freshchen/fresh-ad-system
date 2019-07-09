@@ -38,10 +38,10 @@ public class SearchResponse {
 
         // 展示监测 url
         private List<String> showMonitorUrl =
-                Arrays.asList("www.imooc.com", "www.imooc.com");
+                Arrays.asList("www.freshchen.com", "www.freshchen.com");
         // 点击监测 url
         private List<String> clickMonitorUrl =
-                Arrays.asList("www.imooc.com", "www.imooc.com");
+                Arrays.asList("www.freshchen.com", "www.freshchen.com");
     }
 
     public static Creative convert(CreativeObject object) {

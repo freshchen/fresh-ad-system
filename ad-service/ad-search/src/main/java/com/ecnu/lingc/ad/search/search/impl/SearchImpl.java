@@ -1,6 +1,7 @@
 package com.ecnu.lingc.ad.search.search.impl;
 
 import com.alibaba.fastjson.JSON;
+import com.ecnu.lingc.ad.search.index.CommonStatus;
 import com.ecnu.lingc.ad.search.index.DataTable;
 import com.ecnu.lingc.ad.search.index.adunit.AdUnitIndex;
 import com.ecnu.lingc.ad.search.index.adunit.AdUnitObject;
@@ -18,7 +19,6 @@ import com.ecnu.lingc.ad.search.search.vo.feature.FeatureRelation;
 import com.ecnu.lingc.ad.search.search.vo.feature.ItFeature;
 import com.ecnu.lingc.ad.search.search.vo.feature.KeywordFeature;
 import com.ecnu.lingc.ad.search.search.vo.media.AdSlot;
-import com.ecnu.lingc.ad.sponsor.constant.CommonStatus;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
