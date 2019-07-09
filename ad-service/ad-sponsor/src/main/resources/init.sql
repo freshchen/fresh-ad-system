@@ -1,4 +1,4 @@
--- imooc-ad 数据库
+-- ad 数据库
 drop DATABASE ad;
 CREATE DATABASE ad character set utf8;
 
